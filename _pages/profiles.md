@@ -14,4 +14,11 @@ profiles:
     more_info: >
       <p>Head, BiSECt Lab</p>
       <p>niravbhatt@iitm.ac.in</p>
+  - align: right
+    image: roshan.webp
+    content: about_roshan_msb.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>PhD Scholar, BiSECt Lab</p>
+      <p>bt21d401@smail.iitm.ac.in</p>
 ---
