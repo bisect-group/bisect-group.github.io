@@ -1,0 +1,1 @@
+Rajeeva Lokshanan Reguna Madhan currently works with Dr. Nirav Bhatt and Dr. Himanshu Sinha to develop machine learning and statistical models to analyze the relationship between the genotype and the phenotype.
