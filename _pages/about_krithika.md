@@ -1,0 +1,1 @@
+Krithika Padmanabhan is a PhD scholar, jointly guided by Dr. Sridharakumar Narasimhan and Dr. Nirav Bhatt. Her broad area of research is sensors, instrumentation and control. She is currently working on near-infrared spectroscopic analysis for various applications.

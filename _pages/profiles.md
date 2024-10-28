@@ -34,5 +34,12 @@ profiles:
     image_circular: true
     more_info: >
       <p>PhD Scholar, BiSECt Lab</p>
-      <p>bt##x###@smail.iitm.ac.in</p>
+      <p>rajeeva@smail.iitm.ac.in</p>
+  - align: right
+    image: krithika.webp
+    content: about_krithika.md
+    image_circular: true
+    more_info: >
+      <p>PhD Scholar, BiSECt Lab</p>
+      <p>ch22d300@smail.iitm.ac.in</p>
 ---
