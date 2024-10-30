@@ -42,4 +42,11 @@ profiles:
     more_info: >
       <p>PhD Scholar, BiSECt Lab</p>
       <p>ch22d300@smail.iitm.ac.in</p>
+  - align: right
+    image: keerthana.webp
+    content: about_keerthana.md
+    image_circular: true
+    more_info: >
+      <p>PhD Scholar, BiSECt Lab</p>
+      <p>bt19d019@smail.iitm.ac.in</p>
 ---
