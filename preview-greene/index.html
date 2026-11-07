@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>BiSECt Lab</title>
+
+<link rel="icon" href="/preview-greene/images/icon.svg">
+
+<meta name="title" content="">
+<meta name="description" content="BioSystems Engineering and Control. The BiSECt Lab at the Wadhwani School of Data Science and AI, IIT Madras, builds models of biological and chemical systems from data.">
+
+<meta property="og:title" content="">
+<meta property="og:site_title" content="BiSECt Lab">
+<meta property="og:description" content="BioSystems Engineering and Control. The BiSECt Lab at the Wadhwani School of Data Science and AI, IIT Madras, builds models of biological and chemical systems from data.">
+<meta property="og:url" content="https://bisect-group.github.io/preview-greene">
+<meta property="og:image" content="/preview-greene/images/bisect.webp">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="">
+<meta property="twitter:description" content="BioSystems Engineering and Control. The BiSECt Lab at the Wadhwani School of Data Science and AI, IIT Madras, builds models of biological and chemical systems from data.">
+<meta property="twitter:url" content="https://bisect-group.github.io/preview-greene">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/preview-greene/images/bisect.webp">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "",
+    "description": "BioSystems Engineering and Control. The BiSECt Lab at the Wadhwani School of Data Science and AI, IIT Madras, builds models of biological and chemical systems from data.",
+    "headline": "",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview-greene/images/icon.svg" }
+    },
+    "url": "https://bisect-group.github.io/preview-greene"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="https://bisect-group.github.io/preview-greene/feed.xml">
+
+  <!-- Font Awesome icons, self-hosted (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT) -->
+<link href="/preview-greene/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+
+  <!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview-greene/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/util.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview-greene/_styles/zz-leakcurber.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts, self-hosted (MIT) -->
+<script src="/preview-greene/assets/vendor/popper.min.js" defer></script>
+<script src="/preview-greene/assets/vendor/tippy.min.js" defer></script>
+<script src="/preview-greene/assets/vendor/mark.min.js" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview-greene/_scripts/anchors.js"></script>
+
+  <script src="/preview-greene/_scripts/dark-mode.js"></script>
+
+  <script src="/preview-greene/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview-greene/_scripts/search.js"></script>
+
+  <script src="/preview-greene/_scripts/site-search.js"></script>
+
+  <script src="/preview-greene/_scripts/table-wrap.js"></script>
+
+  <script src="/preview-greene/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+<header class="background" data-big>
+  <a href="/preview-greene/" class="home">
+    
+      <span class="logo">
+        
+          <img src="/preview-greene/images/logo.webp" alt="logo">
+        
+      </span>
+    
+    
+      <span class="title-text" data-tooltip="Home">
+        
+          <h1 class="title">BiSECt Lab</h1>
+        
+        
+          <span class="subtitle">BioSystems Engineering and Control</span>
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/preview-greene/research/" data-tooltip="Our projects and software">
+          Research
+        </a>
+      
+    
+      
+        <a href="/preview-greene/publications/" data-tooltip="Papers and preprints">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/preview-greene/news/" data-tooltip="Lab news">
+          News
+        </a>
+      
+    
+      
+        <a href="/preview-greene/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!-- TODO: Nirav to approve this summary. -->
+<p class="summary">The BiSECt lab (BioSystems Engineering and Control) is led by Nirav Pravinbhai Bhatt at the Wadhwani School of Data Science and AI, IIT Madras. We build models of biological and chemical systems from data. Our work covers metabolic network reconstruction, reaction network identification, machine learning benchmarks for enzymes and molecules, and process control. We release our methods as open-source software.</p>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview-greene/research" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
+      <i class="icon fa-solid fa-arrow-right"></i>
+      
+        <span>Our research</span>
+      
+    </a>
+  </div>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview-greene/team" data-style="" aria-label="fa-solid fa-users">
+      <i class="icon fa-solid fa-users"></i>
+      
+        <span>Meet the team</span>
+      
+    </a>
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="themes">Themes</h2>
+
+<!-- TODO: Nirav to confirm wording of the themes. -->
+<ul class="themes">
+  <li><span class="tag">Metabolic network modelling</span></li>
+  <li><span class="tag">Reaction network identification</span></li>
+  <li><span class="tag">Machine learning benchmarks for enzymes and molecules</span></li>
+  <li><span class="tag">Process systems and control</span></li>
+</ul>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="latest-news">Latest news</h2>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="/preview-greene/2026/11/01/star-protocols.html">ThermOptCOBRA protocol in STAR Protocols</a>
+
+      <div class="post-info">
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>November 01, 2026</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="Our protocol for building and analysing metabolic networks with ThermOptCOBRA appeared in STAR Protocols. DOI">
+        Our protocol for building and analysing metabolic networks with ThermOptCOBRA appeared in STAR Protocols.  DOI
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="/preview-greene/2026/09/25/leakcurber-neurips.html">Leak-CURBER accepted at NeurIPS 2026</a>
+
+      <div class="post-info">
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>September 25, 2026</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="Our paper on Leak-CURBER was accepted at the NeurIPS 2026 Evaluations and Datasets Track. Project page.">
+        Our paper on Leak-CURBER was accepted at the NeurIPS 2026 Evaluations and Datasets Track.  Project page.
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="/preview-greene/2026/05/11/jcim-functional-groups.html">Functional groups paper in JCIM</a>
+
+      <div class="post-info">
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>May 11, 2026</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="Functional Groups Are All You Need for Chemically Interpretable Molecular Property Prediction appeared in the Journal of Chemical Information and Modeling. DOI">
+        “Functional Groups Are All You Need for Chemically Interpretable Molecular Property Prediction” appeared in the Journal of Chemical Information and Modeling. DOI
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview-greene/news" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+      <i class="icon fa-solid fa-arrow-right"></i>
+      
+        <span>All news</span>
+      
+    </a>
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="selected-papers">Selected papers</h2>
+
+<h3 id="2026">2026</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hcrvrb" class="citation-title">
+        Functional Groups Are All You Need for Chemically Interpretable Molecular Property Prediction
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Roshan Balaji, Joe Bobby, Nirav Pravinbhai Bhatt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Chemical Information and Modeling</span>
+         · 
+        <span class="citation-date">11 May 2026</span>
+        
+           · 
+          <span class="citation-id">doi:10.1021/acs.jcim.5c02769</span>
+        
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/bisect-group/fgmolprop" data-tooltip="Source code" data-style="bare" aria-label="Source code">
+      <i class="icon fa-solid fa-code"></i>
+      
+        <span>Code</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hcrvrd" class="citation-title">
+        Generalist method to reconstruct metabolic networks from multi-omics data at large-scale
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Pavan Kumar S, Subasree Sridhar, Noor Alsmadi, Radhakrishnan Mahadevan, Nirav Pravinbhai Bhatt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">openRxiv</span>
+         · 
+        <span class="citation-date">06 Apr 2026</span>
+        
+           · 
+          <span class="citation-id">doi:10.64898/2026.04.02.716249</span>
+        
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/bisect-group/SPECTRA" data-tooltip="Source code" data-style="bare" aria-label="Source code">
+      <i class="icon fa-solid fa-code"></i>
+      
+        <span>Code</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a class="citation-title">
+        Leak-CURBER: A Leakage-Controlled Multimodal Evaluation Benchmark for Enzymatic Reaction Tasks
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Adhil Ahmed*, Roshan Balaji*, Nirav Pravinbhai Bhatt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Advances in Neural Information Processing Systems, Evaluations and Datasets Track</span>
+         · 
+        <span class="citation-date">01 Jan 2026</span>
+        
+      </div>
+
+      
+        
+          <div class="citation-description">
+            * Equal contribution: Adhil Ahmed and Roshan Balaji
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://bisect-group.github.io/Leak-CURBER/" data-tooltip="Website" data-style="bare" aria-label="Website">
+      <i class="icon fa-solid fa-globe"></i>
+      
+        <span>Project page</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/bisect-group/Leak-CURBER" data-tooltip="Source code" data-style="bare" aria-label="Source code">
+      <i class="icon fa-solid fa-code"></i>
+      
+        <span>Code</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2025">2025</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hcrvq8" class="citation-title">
+        Modelling reliable metabolic phenotypes by analysing the context-specific transcriptomics data
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Pavan Kumar S, Nirav Pravinbhai Bhatt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">npj Systems Biology and Applications</span>
+         · 
+        <span class="citation-date">13 Dec 2025</span>
+        
+           · 
+          <span class="citation-id">doi:10.1038/s41540-025-00617-8</span>
+        
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hcrvq7" class="citation-title">
+        ThermOptCobra: Thermodynamically optimal construction and analysis of metabolic networks for reliable phenotype predictions
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Pavan Kumar S, Nirav Pravinbhai Bhatt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">iScience</span>
+         · 
+        <span class="citation-date">01 Aug 2025</span>
+        
+           · 
+          <span class="citation-id">doi:10.1016/j.isci.2025.113005</span>
+        
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/bisect-group/Protocol_ThermOptCOBRA" data-tooltip="Source code" data-style="bare" aria-label="Source code">
+      <i class="icon fa-solid fa-code"></i>
+      
+        <span>Code</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview-greene/publications" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+      <i class="icon fa-solid fa-arrow-right"></i>
+      
+        <span>All publications</span>
+      
+    </a>
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="affiliations">Affiliations</h2>
+
+<div class="logos">
+  <img src="/preview-greene/images/iitm.webp" alt="IIT Madras" width="52" height="52">
+  <img src="/preview-greene/images/wsai.webp" alt="Wadhwani School of Data Science and AI" width="52" height="52">
+  <img src="/preview-greene/images/rbcdsai.webp" alt="RBCDSAI" width="52" height="52">
+  <img src="/preview-greene/images/ibse.webp" alt="IBSE" width="52" height="52">
+  <img src="/preview-greene/images/bisect.webp" alt="BiSECt Lab" width="80" height="52">
+</div>
+  </section>
+
+
+    </main>
+    <footer class="background" data-size="wide">
+  <div>
+    BiSECt Lab, Wadhwani School of Data Science and AI,<br>
+    Indian Institute of Technology Madras, Chennai, India
+  </div>
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/bisect-group" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    BiSECt Lab
+      |   Built with the
+    <a href="https://github.com/greenelab/lab-website-template">
+      Greene Lab website template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>

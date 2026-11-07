@@ -1,0 +1,54 @@
+[data-dark=false] {
+  --primary: #1b5fa8;
+  --navy: #1b2a5c;
+  --secondary: #d4e8fa;
+  --pill-top: #d4e8fa;
+  --pill-bottom: #9fc7ec;
+  --text: #1f2937;
+  --background: #ffffff;
+  --background-alt: #f3f7fc;
+  --light-gray: #d6e0ec;
+  --gray: #5b6575;
+  --dark-gray: #404a5a;
+  --button: #1b2a5c;
+  --button-text: #ffffff;
+  --overlay: #00000020;
+}
+
+[data-dark=true] {
+  --primary: #8cc0f2;
+  --navy: #b9d6f2;
+  --secondary: #2a4a73;
+  --pill-top: #2a4a73;
+  --pill-bottom: #1c3354;
+  --text: #e4e9f1;
+  --background: #0f1522;
+  --background-alt: #182133;
+  --light-gray: #2b3850;
+  --gray: #9aa6b8;
+  --dark-gray: #b0bccd;
+  --button: #b9d6f2;
+  --button-text: #0f1522;
+  --overlay: #ffffff10;
+}
+
+:root {
+  --title: "Source Serif 4", Georgia, serif;
+  --heading: "Source Serif 4", Georgia, serif;
+  --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --code: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --large: 1.2rem;
+  --xl: 1.4rem;
+  --xxl: 1.6rem;
+  --thin: 400;
+  --regular: 400;
+  --semi-bold: 600;
+  --bold: 700;
+  --spacing: 1.65;
+  --compact: 1.65;
+  --rounded: 12px;
+  --shadow: none;
+  --transition: 0.2s ease;
+}
+
+/*# sourceMappingURL=-theme.css.map */
