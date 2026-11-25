@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bisectgroup.github.io/sitemap.xml
+Sitemap: https://bisect-group.github.io/sitemap.xml
