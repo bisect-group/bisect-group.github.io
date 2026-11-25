@@ -1,0 +1,16 @@
+{%- assign cards = site.data.research.cards -%}
+<div class="lc-cards-wide">
+  {%- for c in cards %}
+  <article class="lc-card lc-item">
+    {%- if c.image and include.full %}<img class="lc-thumb" src="{{ c.image | prepend: '/' | relative_url }}" alt="" loading="lazy">{% endif %}
+    {%- if c.tag %}<span class="lc-venue">{{ c.tag }}</span>{% endif %}
+    {% if include.full %}<h2 class="lc-ctitle">{{ c.title }}</h2>{% else %}<h3 class="lc-ctitle">{{ c.title }}</h3>{% endif %}
+    <p>{{ c.summary | strip }}</p>
+    {%- if include.full and c.links %}
+    <div class="lc-buttons">
+      {%- for l in c.links %}<a class="lc-btn small" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+    </div>
+    {%- endif %}
+  </article>
+  {%- endfor %}
+</div>

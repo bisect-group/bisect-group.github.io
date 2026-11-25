@@ -1,0 +1,21 @@
+{%- assign p = include.p -%}
+<article class="lc-card lc-person">
+  {%- if p.photo %}
+  <img class="lc-avatar" src="{{ p.photo | prepend: '/' | relative_url }}" alt="{{ p.name }}" width="96" height="96" loading="lazy">
+  {%- else %}
+  <span class="lc-avatar lc-initial" aria-hidden="true">{{ p.name | slice: 0 }}</span>
+  {%- endif %}
+  <div class="lc-person-body">
+    <h2 class="lc-ctitle">{{ p.name }}</h2>
+    <p class="lc-role">{{ p.role }}</p>
+    {%- if p.bio %}<div class="lc-bio">{{ p.bio | markdownify }}</div>{% endif %}
+    <p class="lc-iconlinks">
+      {%- for k in p.links %}
+      {%- assign kind = k[0] -%}
+      {%- assign href = k[1] -%}
+      {%- if kind == "email" %}{% assign href = href | prepend: "mailto:" %}{% endif %}
+      <a href="{{ href }}" aria-label="{{ p.name }}: {{ kind }}" title="{{ kind | capitalize }}">{% include icon.html name=kind %}</a>
+      {%- endfor %}
+    </p>
+  </div>
+</article>

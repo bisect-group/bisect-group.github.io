@@ -1,0 +1,24 @@
+<div class="lc-paper">
+  <div class="lc-paper-head">
+    {%- if entry.abbr %}<span class="lc-venue">{{ entry.abbr }}</span>{% endif %}
+    <span class="lc-paper-title">{{ entry.title }}</span>
+  </div>
+  <div class="lc-authors-line">
+    {%- assign names = entry.author | split: " and " -%}
+    {%- for n in names -%}
+      {%- assign parts = n | split: ", " -%}
+      {%- capture short %}{{ parts[0] }}{% if parts[1] %}, {{ parts[1] | slice: 0 }}{% endif %}{% endcapture -%}
+      {%- if parts[0] contains "Bhatt" %}<strong>{{ short }}</strong>{% else %}{{ short }}{% endif -%}
+      {%- unless forloop.last %}; {% endunless -%}
+    {%- endfor -%}
+    {%- if entry.note %} <span class="lc-note-inline">{{ entry.note }}</span>{% endif %}
+  </div>
+  <div class="lc-venue-line"><em>{{ entry.journal | default: entry.booktitle | default: entry.publisher }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}</div>
+  <div class="lc-buttons left">
+    {%- if entry.html %}<a class="lc-btn small" href="{{ entry.html }}">Project page</a>{% endif %}
+    {%- if entry.pdf %}<a class="lc-btn small" href="{{ entry.pdf }}">PDF</a>{% endif %}
+    {%- if entry.doi %}<a class="lc-btn small" href="https://doi.org/{{ entry.doi }}">DOI</a>{% endif %}
+    {%- if entry.arxiv %}<a class="lc-btn small" href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a>{% endif %}
+    {%- if entry.code %}<a class="lc-btn small" href="{{ entry.code }}">Code</a>{% endif %}
+  </div>
+</div>

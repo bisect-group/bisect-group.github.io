@@ -1,0 +1,10 @@
+{%- assign items = site.news | sort: "date" | reverse -%}
+{%- if include.limit %}{% assign items = items | slice: 0, include.limit %}{% endif -%}
+<ul class="lc-news">
+  {%- for n in items %}
+  <li>
+    <time datetime="{{ n.date | date_to_xmlschema }}">{{ n.date | date: "%b %Y" }}</time>
+    <div>{% if n.title %}<strong>{{ n.title }}</strong><br>{% endif %}{{ n.content | strip | remove: "<p>" | remove: "</p>" }}</div>
+  </li>
+  {%- endfor %}
+</ul>

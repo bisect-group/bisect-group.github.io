@@ -1,0 +1,59 @@
+# TODO: Nirav to confirm wording of the themes.
+themes:
+  - Metabolic network modelling
+  - Reaction network identification
+  - Machine learning benchmarks for enzymes and molecules
+  - Process systems and control
+
+cards:
+  - title: Leak-CURBER
+    tag: "NeurIPS 2026 · Benchmark"
+    summary: >-
+      Leak-CURBER is a benchmark for enzymatic reaction tasks with leakage-aware data splits.
+      It covers kinetic parameter prediction, binding affinity, enzyme classification, enzyme retrieval, and reaction outcome.
+    links:
+      - {label: Project page, url: "https://bisect-group.github.io/Leak-CURBER/"}
+      - {label: Code, url: "https://github.com/bisect-group/Leak-CURBER"}
+    # TODO: Replace summary with the paper abstract wording if Nirav prefers.
+  - title: SPECTRA
+    tag: "Metabolic modelling · bioRxiv 2026"
+    summary: >-
+      SPECTRA reconstructs metabolic models from multi-omics data at many scales.
+      These range from minimal reactomes and context-specific models to microbial community and multi-tissue models.
+    links:
+      - {label: MATLAB code, url: "https://github.com/bisect-group/SPECTRA"}
+      - {label: Python code, url: "https://github.com/bisect-group/spectra-cobra"}
+      - {label: Docs, url: "https://spectra-cobra.readthedocs.io"}
+  - title: ThermOptCOBRA
+    tag: "Metabolic modelling · iScience 2025"
+    summary: >-
+      ThermOptCOBRA finds and removes thermodynamically infeasible cycles in genome-scale metabolic models.
+      This gives more reliable phenotype predictions and context-specific models.
+    links:
+      - {label: Paper, url: "https://doi.org/10.1016/j.isci.2025.113005"}
+      - {label: MATLAB code, url: "https://github.com/bisect-group/Protocol_ThermOptCOBRA"}
+      - {label: Python code, url: "https://github.com/bisect-group/thermoptcobrapy"}
+  - title: NovoMolGen
+    tag: "Molecule generation · arXiv 2025"
+    summary: >-
+      NovoMolGen is a family of transformer foundation models pretrained on 1.5 billion molecules for de novo molecule generation.
+      It outperforms prior molecular language models in unconstrained and goal-directed generation. The paper is on arXiv under the title "A Large Scale Investigation of Scaling Limits in Chemical Language Models".
+    links:
+      - {label: Paper, url: "https://arxiv.org/abs/2508.13408"}
+      - {label: Code, url: "https://github.com/bisect-group/NovoMolGen"}
+  - title: BiCA
+    tag: "Biomedical retrieval · AAAI 2026"
+    summary: >-
+      BiCA trains biomedical dense retrieval models with hard negatives taken from the PubMed citation graph.
+      The repository holds the pipeline to build the corpus, train the model, and evaluate it.
+    links:
+      - {label: Paper, url: "https://arxiv.org/abs/2511.08029"}
+      - {label: Code, url: "https://github.com/bisect-group/BiCA"}
+  - title: Functional groups for molecular property prediction
+    tag: "Cheminformatics · JCIM 2026"
+    summary: >-
+      FGMolProp predicts molecular properties from the functional groups in a molecule.
+      This gives representations that chemists can interpret, and it works on more than 35 datasets.
+    links:
+      - {label: Paper, url: "https://doi.org/10.1021/acs.jcim.5c02769"}
+      - {label: Code, url: "https://github.com/bisect-group/fgmolprop"}

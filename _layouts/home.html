@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="lc-hero lc-wrap">
+  <span class="lc-venue">IIT Madras · Wadhwani School of Data Science and AI</span>
+  <h1 class="lc-title">{{ site.title }}</h1>
+  <div class="lc-tagline">{{ content }}</div>
+  <div class="lc-logos">
+    <img src="{{ '/assets/img/logos/iitm.webp' | relative_url }}" alt="IIT Madras" width="52" height="52">
+    <img src="{{ '/assets/img/logos/wsai.webp' | relative_url }}" alt="Wadhwani School of Data Science and AI" width="45" height="52">
+    <img src="{{ '/assets/img/logos/rbcdsai.webp' | relative_url }}" alt="RBCDSAI" width="39" height="52">
+    <img src="{{ '/assets/img/logos/ibse.webp' | relative_url }}" alt="IBSE" width="52" height="52">
+  </div>
+</section>
+
+<section class="lc-section lc-wrap">
+  <h2>Research</h2>
+  {% include research_cards.html %}
+  <p class="lc-more"><a href="{{ '/research/' | relative_url }}">All research</a></p>
+</section>
+
+<section class="lc-section lc-wrap narrow">
+  <h2>Latest news</h2>
+  {% include news_list.html limit=5 %}
+  <p class="lc-more"><a href="{{ '/news/' | relative_url }}">All news</a></p>
+</section>
+
+<section class="lc-section lc-wrap narrow">
+  <h2>Selected papers</h2>
+  <div class="lc-papers">{% bibliography -f papers -q @*[selected=true]* -g none %}</div>
+  <p class="lc-more"><a href="{{ '/publications/' | relative_url }}">All publications</a></p>
+</section>

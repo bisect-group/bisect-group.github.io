@@ -1,0 +1,27 @@
+title: BiSECt Lab
+description: >-
+  The BioSystems Engineering and Control (BiSECt) Lab at the Wadhwani School of Data Science and AI, IIT Madras.
+lang: en
+url: https://bisect-group.github.io
+baseurl: ""
+github_url: https://github.com/bisect-group
+
+include: [_pages]
+exclude: [README.md, LICENSE, vendor, .github]
+
+collections:
+  news:
+    output: false
+
+plugins:
+  - jekyll-scholar
+  - jekyll-sitemap
+
+scholar:
+  source: ./_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending

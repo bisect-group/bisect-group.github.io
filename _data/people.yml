@@ -1,0 +1,72 @@
+# TODO: Lab may want to hide student emails.
+- name: Nirav Pravinbhai Bhatt
+  role: Head of lab; Associate Professor
+  group: current
+  photo: assets/img/people/nirav.webp
+  bio: >-
+    Nirav Bhatt has a BE in Chemical Engineering from The M. S. University of Baroda, an MTech from IIT Madras, and a DSc from EPFL, Switzerland.
+    He is an Associate Professor at the Wadhwani School of Data Science and AI (WSAI) and the Department of Biotechnology, IIT Madras, and Program Chair of the MTech in Data Science and AI at the IIT Madras Zanzibar campus.
+    He is affiliated with RBCDSAI and IBSE at IIT Madras. His research covers modelling and identification of biological and chemical systems, bioprocess control, and machine learning for engineering systems.
+  links:
+    email: niravbhatt@iitm.ac.in
+  todo: "add scholar/website links."
+- name: Roshan Balaji
+  role: PhD scholar
+  group: current
+  photo: assets/img/people/roshan.webp
+  bio: >-
+    Roshan Balaji is a PhD scholar at IIT Madras and a PMRF fellow. He has a BTech in Biotechnology from NIT Calicut.
+    His work covers multimodal AI and deep learning for biological systems, including enzyme benchmarks and molecular property prediction.
+  links:
+    email: bt21d401@smail.iitm.ac.in
+  todo: "Add scholar/github/website links."
+- name: Adhil Ahmed
+  role: MS research scholar
+  group: current
+  photo: null
+  bio: >-
+    Adhil Ahmed is a research scholar at the Wadhwani School of Data Science and AI, IIT Madras, supported by WSAI.
+    He works on Leak-CURBER, a leakage-controlled benchmark for enzymatic reaction tasks.
+  links:
+    email: da24s023@smail.iitm.ac.in
+  todo: "Confirm degree program. Add photo. Add GitHub link (do not guess; HF name is starkAhmed43)."
+- name: Pavan Kumar S
+  role: PhD scholar
+  group: current
+  photo: assets/img/people/pavan.webp
+  bio: >-
+    Pavan Kumar S is a PhD scholar working with Nirav Bhatt on integrated models of biological networks.
+    His project links metabolic, signalling, and gene regulatory networks using omics and literature data.
+  links:
+    email: bt19d200@smail.iitm.ac.in
+  todo: "Confirm current or alumni (2019 roll number)."
+- name: Rajeeva Lokshanan
+  role: PhD scholar
+  group: current
+  photo: assets/img/people/rajeeva.webp
+  bio: >-
+    Rajeeva Lokshanan Reguna Madhan works with Nirav Bhatt and Himanshu Sinha.
+    He builds machine learning and statistical models of the relationship between genotype and phenotype.
+  links:
+    email: rajeeva@smail.iitm.ac.in
+  todo: "Confirm current or alumni."
+- name: Krithika Padmanabhan
+  role: PhD scholar
+  group: current
+  photo: assets/img/people/krithika.webp
+  bio: >-
+    Krithika Padmanabhan is a PhD scholar guided jointly by Sridharakumar Narasimhan and Nirav Bhatt.
+    Her area is sensors, instrumentation, and control. She works on near-infrared spectroscopic analysis.
+  links:
+    email: ch22d300@smail.iitm.ac.in
+  todo: "Confirm current or alumni."
+- name: Keerthana C
+  role: PhD scholar
+  group: current
+  photo: assets/img/people/keerthana.webp
+  bio: >-
+    Keerthana C is a biotechnologist who works on bioprocess control.
+    She uses near-infrared spectroscopy and model-based predictive control to manage the extracellular and intracellular environment of microorganisms.
+  links:
+    email: bt19d019@smail.iitm.ac.in
+  todo: "Confirm current or alumni (2019 roll number)."

@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<div class="lc-wrap lc-section lc-page">
+  <h1 class="lc-pagetitle">{{ page.title }}</h1>
+  {{ content }}
+  <div class="lc-papers">{% bibliography -f papers -g year -G descending %}</div>
+</div>

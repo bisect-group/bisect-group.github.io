@@ -1,0 +1,17 @@
+<header class="lc-site-header">
+  <div class="lc-wrap lc-bar">
+    <a class="lc-brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/logos/bisect.webp' | relative_url }}" alt="" width="30" height="26">
+      <span>{{ site.title }}</span>
+    </a>
+    <button class="lc-theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+      {% include icon.html name="moon" %}{% include icon.html name="sun" %}
+    </button>
+    <nav class="lc-nav" aria-label="Main">
+      {%- assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" -%}
+      {%- for p in nav_pages %}
+      <a href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.title }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>

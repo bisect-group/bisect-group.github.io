@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="lc-wrap lc-section lc-page">
+  <h1 class="lc-pagetitle">{{ page.title }}</h1>
+  {{ content }}
+  {%- if site.data.research.themes %}
+  <ul class="lc-themes">{% for t in site.data.research.themes %}<li class="lc-venue">{{ t }}</li>{% endfor %}</ul>
+  {%- endif %}
+  {% include research_cards.html full=true %}
+</div>
